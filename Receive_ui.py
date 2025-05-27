@@ -205,7 +205,7 @@ class MainWindow(QWidget):
                     self.receive_pressed_once = False
                 
                 finally:
-                    self.file_Receive_widget.setText("Files received and saved successfully\n\nPress 'Receive' to see received file names")
+                    self.file_Receive_widget.setText("Files received and saved successfully\n\nPress 'Received' to see receive file names")
                     self.file_Receive_widget.adjustSize()
         
         
